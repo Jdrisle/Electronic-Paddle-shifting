@@ -48,7 +48,7 @@ Includes:
 
 * high-level-block-diagrams.pdf -> system-level architecture diagrams
 * system-architecture.md -> explanation of components and interactions
-* communication-protocols.md -> how PCB1, PCB2, and ECU communicate
+* communication-protocols.md -> how steering-wheel-pcb, solenoid-pcb, and ECU communicate
 * timing-diagrams.pdf -> signal timing and shift behavior
 
 ## design-decisions/
@@ -237,7 +237,7 @@ Tests for system interactions.
 
 Includes:
 
-* PCB1 ↔ PCB2 communication tests
+* steering-wheel-pcb ↔ solenoid-pcb communication tests
 * STM32 ↔ ECU communication tests
 * full paddle shift cycle tests
 * latency and timing verification
