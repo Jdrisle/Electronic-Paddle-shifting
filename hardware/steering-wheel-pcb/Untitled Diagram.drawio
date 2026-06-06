@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KRDd9oAstIXu-IWbX1dd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="190" width="450" x="230" y="290" as="geometry" />
-        </mxCell>
         <mxCell id="KRDd9oAstIXu-IWbX1dd-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="350" y="290" as="sourcePoint" />
@@ -44,6 +41,31 @@
         </mxCell>
         <mxCell id="KRDd9oAstIXu-IWbX1dd-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12 V" vertex="1">
           <mxGeometry height="30" width="60" x="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-9" edge="1" parent="1" source="uwVNB1MPxTrURZPiNuG2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-10" connectable="0" parent="uwVNB1MPxTrURZPiNuG2-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5V Bus" vertex="1">
+          <mxGeometry relative="1" x="-0.1636" y="2" as="geometry">
+            <mxPoint x="18" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-11" edge="1" parent="1" source="uwVNB1MPxTrURZPiNuG2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uwVNB1MPxTrURZPiNuG2-2" value="5V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Buck&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="60" x="110" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-12" edge="1" parent="1" source="uwVNB1MPxTrURZPiNuG2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="3V Bus">
+          <mxGeometry relative="1" x="0.0909" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwVNB1MPxTrURZPiNuG2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LDO" vertex="1">
+          <mxGeometry height="40" width="60" x="210" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
