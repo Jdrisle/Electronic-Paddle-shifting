@@ -46,7 +46,7 @@ How the system is structured internally.
 
 Includes:
 
-* high-level-block-diagrams.pdf -> system-level architecture diagrams
+* Electronic padal shifting (High level flowchart).pdf-> system-level architecture diagrams
 * system-architecture.md -> explanation of components and interactions
 * communication-protocols.md -> how steering-wheel-pcb, solenoid-pcb, and ECU communicate
 * timing-diagrams.pdf -> signal timing and shift behavior
@@ -76,6 +76,7 @@ PCB for steering wheel. Includes STM32 as well as other power circutry.
 Includes:
 
 * schematic/ -> circuit schematic files
+* Steering-Wheel-PCB-Block-Diagram.XML -> High level block diagram of Steering wheel PCB
 * layout/ -> PCB routing and design files
 * fabrication/ -> manufacturing outputs (Gerbers, BOM, pick-and-place files)
 * README.md -> explanation of board purpose, inputs, and outputs
@@ -322,3 +323,5 @@ Includes:
 * capstone/ -> academic documentation and deliverables
 
 Each section is separated to ensure the system remains modular, scalable, and easy to maintain as it evolves.
+
+**This layout has been extensively used in other projects because it improves readability and distribution**
